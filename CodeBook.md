@@ -3,11 +3,15 @@
 ## About the dataset
 The data is from experiments that were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. 
 
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals Accelerometer-XYZ and Gyroscope-XYZ. These time domain signals (denoted "Time") were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise (denoted "Frequency"). Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Body Acceleration-X,Y,Z and Gravity Acceleration-X,Y,Z) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. Variables are labeled "Gyroscope" to denote the data collected by the gyroscope. 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals ("time") were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Body Accerlation Time-XYZ and Gravity Accerlation-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
-The body linear acceleration and angular velocity were derived in time to obtain Jerk Signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm for variables 15-20, 27-32, 37, 38, 41, 42, 49-54, 63, 63, 67, and 68. 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (Body Accerlation Jerk-XYZ and Body Acceleration Gyroscope Jerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals for variables 33-42, 61-68. 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing Body Accerlarion FFT-XYZ, Body Accerlation Jerk FFT-XYZ, Body Gyroscope-XYZ, Body Accerlation Jerk FFT, Body Gyroscope FFT, Body Gyroscope Jerk FFT. (denoted as "frequency"). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 
 ## Features of the Dataset
     68 variables (columns), 180 observations (rows) from six activities recorded for 30 subjects 
