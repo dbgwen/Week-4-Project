@@ -1,7 +1,7 @@
-## Week 4 Project - Codebook - tidy_data
+## Week 4 Project - Codebook
 
-## About the tidy_data dataset
-The data in the tidy_data dataset is from experiments that were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. 
+## About the dataset
+The data is from experiments that were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals Accelerometer-XYZ and Gyroscope-XYZ. These time domain signals (denoted "Time") were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise (denoted "Frequency"). Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Body Acceleration-X,Y,Z and Gravity Acceleration-X,Y,Z) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. Variables are labeled "Gyroscope" to denote the data collected by the gyroscope. 
 
@@ -9,7 +9,7 @@ The body linear acceleration and angular velocity were derived in time to obtain
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals for variables 33-42, 61-68. 
 
-## Features of the tidy_data Dataset
+## Features of the Dataset
     68 variables (columns), 180 observations (rows) from six activities recorded for 30 subjects 
 
 ## Transformations 
