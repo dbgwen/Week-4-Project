@@ -10,7 +10,7 @@ The body linear acceleration and angular velocity were derived in time to obtain
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals for variables 33-42, 61-68. 
 
 ## Features of the tidy_data Dataset
-    66 variables (columns), 180 observations (rows) from six activities recorded for 30 subjects 
+    68 variables (columns), 180 observations (rows) from six activities recorded for 30 subjects 
 
 ## Transformations 
     The tidy_data dataset contains a subset of variables from a larger merged dataset of "training" and "test" data. This dataset contains the average for each variable from the larger merged dataset.
